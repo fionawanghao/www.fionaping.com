@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fiona Profile</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />  
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='//fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){     
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+        });
+    });
+</script>
+</head>
+<body>
+<!--header-->
+<div class="header" id="home">
+    <div class="container">
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="" ></a>
+            </div>
+            <div class="top-nav">
+                <span class="menu"> </span>
+                <ul>
+                    <li class="active" ><a href="index.html" class="scroll">HOME</a></li>
+                    <li><a href="#about" class="scroll"> ABOUT</a></li>
+                    <li><a href="#project" class="scroll">PROJECT </a></li>
+                    <li><a href="#blog" class="scroll">BLOG </a></li>
+                </ul>
+                <script>
+                $("span.menu").click(function(){
+                    $(".top-nav ul").slideToggle(500, function(){
+                    });
+                });
+                </script>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+<!--
+<div class="banner">
+    <div class="banner-matter">
+        <h2>A multi-talented freelance web designer &amp; front-end developer</h2>
+        <a href="#" class="down"><img src="images/load.png" alt="" >Download cv</a>                             
+    </div>
+    <a href="#about" class="scroll arrow"><img src="images/arrow.png" alt=""></a>
+</div>
+-->
+    <!---728x90-->
+    <!--content-->
+    <div class="content">   
+            <!--{{{ about -->
+            <div class="about" id="about">
+                <div class="container">
+                    <h3>ABOUT</h3>
+                    <p class="dummy-about">14年毕业之后，一直从事PHP开发。现在具备的技能如下：熟练掌握 PHP 编程、面向对象编程，对 MVC 模式也有深入理解；可以熟练使用 MySQL 数据库及其优化、Smarty 模板技术；能够熟练使用 HTML、DIV+CSS、Javascript/JQuery、Ajax写一些简单的页面；熟练使用 Memcached 、Nginx、Redis 等开源软件，熟练使用PHP 开发框架 Yaf，能够在Linux系统中独立搭建开发环境，有良好的代码书写习惯团队开发意识和编写文档能力。
+                    </p>
+                    <!---728x90--->
+                    <a href="#project" class="scroll down-in"><img src="images/down.png" alt=""></a>
+                </div>
+            </div>
+            <!--}}} about -->
+            <!---728x90--->
+            <!--{{{ work -->
+            <div class="container">
+            <div class="work" id="project">
+                <h3>PROJECT</h3>
+                <div class="work-in">
+                    <div class="work-grid">
+                        <a class="popup-with-zoom-anim" href="#small-dialog"><img class="img-responsive motor-in" src="images/1.jpeg" alt="" >
+                            <div class="simple">
+                                <h5>寰中<span>官网</span>维护开发</h5>
+                                <p> 寰中独家版块、专家团队目的在于推出寰中特色服务，向潜在客户展现寰中独有的留学附属产品，介绍产品的详细信息和产品在提升客户留学背景方面的作用。</p>                    
+                            </div></a>
+                    </div>
+                    <div class="work-grid work-grid1">
+                        <a class="popup-with-zoom-anim" href="#small-dialog"><img class="img-responsive " src="images/2.jpeg" alt="" >
+                        <div class="simple simple-in">
+                                <h5>寰中<span>CRM</span>开发</h5>
+                                <p> CRM系统是为了方便管理客户的信息和电子资料以及员工的工作进度和绩效，实现管理的条理化，便于分析统计员工的工作状况，提高营销的针对性，控制成本，提高收入</p>                             
+                            </div></a>
+                    </div>
+                    <div class="work-grid work-grid2">
+                        <a class="popup-with-zoom-anim" href="#small-dialog"><img class="img-responsive" src="images/xx.jpeg" alt="" style="height: 240px;">
+                        <div class="simple simple-out">
+                                <h5>CRU<span>SCHIF</span>ORM</h5>
+                                <p>Lorem Ipsum passages, and more recently with desktop.    </p>                            
+                            </div></a>
+                    </div>
+                    <div class="work-grid work-grid2">
+                        <a class="popup-with-zoom-anim" href="#small-dialog"><img class="img-responsive" src="images/3.jpeg" alt="" style="height: 240px;">
+                        <div class="simple simple-out">
+                                <h5>CRU<span>SCHIF</span>ORM</h5>
+                                <p>Lorem Ipsum passages, and more recently with desktop.    </p>                            
+                            </div></a>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <a href="#item" class="scroll blog-down"><img src="images/down.png" alt=""></a>
+            </div>
+        </div>
+        <!--}}}  -->
+        <!---->
+        <!-- caption-popup -->
+            <!---->
+            <div class="blog" id="blog">
+            <h3>BLOG</h3>
+                <div class="container">
+                <div class=" blog-grids">
+                    <div class="col-md-3 blog-grid">
+                        <a href="blog.html"><img class="img-responsive" src="images/b1.jpg" alt="" /></a>
+                        <div class="blog-top">
+                            <p>Lorem Ipsum passages, and more recently with desktop publishing software like.</p>
+                            <a href="#" class="read">READ MORE</a>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="agency">
+                            <div class="agency-left">
+                                <h6>Startup Agency</h6>
+                                <span>Dec 04,2014</span>
+                            </div>
+                            <div class="agency-right">
+                                <ul class="social">
+                                <li><span> </span>23</li>
+                                <li><span class="text"> </span>11</li>
+                                </ul>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 blog-grid">
+                        <a href="blog.html"><img class="img-responsive" src="images/b2.jpg" alt="" /></a>
+                        <div class="blog-top">
+                            <p>Lorem Ipsum passages, and more recently with desktop publishing software like.</p>
+                            <a href="#" class="read">READ MORE</a>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="agency">
+                            <div class="agency-left">
+                                <h6>Fantasticherie Art</h6>
+                                <span>Dec 06,2014</span>
+                            </div>
+                            <div class="agency-right">
+                                <ul class="social">
+                                <li><span> </span>23</li>
+                                <li><span class="text"> </span>11</li>
+                                </ul>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 blog-grid">
+                        <a href="blog.html"><img class="img-responsive" src="images/b3.jpg" alt="" /></a>
+                        <div class="blog-top">
+                            <p>Lorem Ipsum passages, and more recently with desktop publishing software like.</p>
+                            <a href="#" class="read">READ MORE</a>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="agency">
+                            <div class="agency-left">
+                                <h6>Portfolio Review</h6>
+                                <span>Dec 12,2014</span>
+                            </div>
+                            <div class="agency-right">
+                                <ul class="social">
+                                <li><span> </span>23</li>
+                                <li><span class="text"> </span>11</li>
+                                </ul>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 blog-grid blog-in">
+                        <a href="blog.html"><img class="img-responsive" src="images/b4.jpg" alt="" /></a>
+                        <div class="blog-top">
+                            <p>Lorem Ipsum passages, and more recently with desktop publishing software like.</p>
+                            <a href="#" class="read">READ MORE</a>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="agency">
+                            <div class="agency-left">
+                                <h6>Genuine Kudos</h6>
+                                <span>Dec 02,2014</span>
+                            </div>
+                            <div class="agency-right">
+                                <ul class="social">
+                                <li><span> </span>23</li>
+                                <li><span class="text"> </span>11</li>
+                                </ul>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                </div>
+            </div>
+            <!---->
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+                    <a href="#home" class="scroll footer-top"> <img src="images/drop.png" alt=""/></a>
+
+                     <ul class="social-ic-icons">
+                        <li class="message"><a href="#"><span> </span></a></li>
+                        <li class="twitter"><a href="#"><span> </span></a></li>
+                        <li class="dribble"><a href="#"><span> </span></a></li>
+                        <li class="linked"><a href="#"><span> </span></a></li>
+                        <li class="behance"><a href="#"><span> </span></a></li>
+                    </ul>
+                    <b class="yellow"> </b>
+            <p class="footer-grid"> &copy; 2015 Fiona. All Rights Reserved </p>
+         </div>
+     </div>
+</body>
+</html>
